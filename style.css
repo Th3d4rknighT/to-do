@@ -1,0 +1,46 @@
+.header{
+    text-align: center;
+    background: linear-gradient(to left,red,blue);
+    height: 100px;
+}
+body{
+    font-family: 'Mogra', cursive;
+}
+h1{
+    z-index: 999;
+    color: white;
+    line-height: 100px;
+}
+input[type="checkbox"]{
+
+
+}
+input[type="checkbox"]:checked + label{
+    text-decoration: line-through;
+    color: rgba(230,230,230,0.5);
+}
+.wrap{
+    width: 50%;
+    margin:0;
+}
+.ol_list{
+ list-style: none;
+
+}
+.ol_list li{
+    float: left;
+    width: 100%;
+}
+label{
+    padding: 10px;
+}
+.red{
+    font-size: 26px;
+    color: white;
+    background-color: grey;
+}
+.blue{
+    color: white;
+    font-size: 26px;
+    background-color: black;
+}
